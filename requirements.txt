@@ -1,0 +1,9 @@
+PySide6>=6.6
+Pillow>=10.0
+pywin32>=306
+# Компрессия (движки как у Caesium):
+mozjpeg-lossless-optimization>=1.1   ; # JPEG: mozjpeg (Huffman + progressive, lossless)
+pyoxipng>=9.0                        ; # PNG: oxipng (lossless recompress)
+imagequant>=1.1                      ; # PNG smart: libimagequant (pngquant engine)
+pillow-avif-plugin>=1.4              ; # AVIF как цель конвертации
+piexif>=1.1                          ; # безпотерьное удаление EXIF из JPEG
