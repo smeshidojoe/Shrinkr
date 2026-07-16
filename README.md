@@ -19,22 +19,10 @@
 
 ## Запуск
 
-```
-pip install -r requirements.txt
-python main.py
-```
-
 Приложение живёт в трее: ЛКМ — открыть/закрыть окно, ПКМ — меню (Open/Exit).
 При первом открытии окна докачивается `gifsicle.exe`
 (в `%APPDATA%/Shrinkr/tools`). Конфиг — `%APPDATA%/Shrinkr/config.json`
 (кнопка Reset Settings сбрасывает его и перезапускает программу).
-
-## Обновления
-
-Проверка релизов GitHub (SmeshidoJoe/Shrinkr): вручную из окна About
-(Check for Updates → Download Update) либо фоново раз в 6 часов с тостом
-«Update available» (отключается галочкой Notify about updates в настройках).
-Скачанный zip применяется помощником с заменой exe и перезапуском.
 
 ## Настройки
 
